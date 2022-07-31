@@ -1,0 +1,30 @@
+{
+  "name": "pessahgameproj-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenGershon/PessahGameProj-BackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenGershon/PessahGameProj-BackEnd/issues"
+  },
+  "homepage": "https://github.com/RubenGershon/PessahGameProj-BackEnd#readme",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "knex": "^1.0.7",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}

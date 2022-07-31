@@ -1,0 +1,103 @@
+.game {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  
+    &__you {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2.5rem;
+    }
+  }
+  .text {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    padding-right: 2rem;
+    color: white;
+  }
+  
+  .icon {
+    height: 180px;
+    width: 180px;
+    border: 18px solid;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  
+    &--paper {
+      background-color: white;
+      background-image: url("../images/icon-paper.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      box-shadow: -2px 5px 13px 1px rgba(0, 0, 0, 0.7);
+      border-color: plum;
+    }
+    &--scissors {
+      background-color: white;
+  
+      background-image: url("../images/icon-scissors.svg");
+      background-position: center;
+      box-shadow: -2px 5px 13px 1px rgba(0, 0, 0, 0.7);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      border-color: aqua;
+    }
+    &--rock {
+      background-color: white;
+  
+      background-image: url("../images/icon-rock.svg");
+      background-position: center;
+      box-shadow: -2px 5px 13px 1px rgba(0, 0, 0, 0.7);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      border-color: peru;
+    }
+  
+    &__play {
+      display: flex;
+      flex-direction: column;
+      margin: 0 2rem;
+      .text {
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+  .gameHeaderCtl {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .play-again {
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 1.7rem;
+  
+    &:hover {
+      color: aquamarine;
+    }
+  }
+  .counter {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #192445;
+    font-size: 7rem;
+    color: white;
+    padding-left: 3rem;
+  }
+  
